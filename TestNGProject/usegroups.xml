@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+      	<run>
+      	<exclude name="Regarasion">
+  		</exclude>
+      	</run>
+      </groups>
+  <test thread-count="5" name="Test">
+  <!-- <groups>
+  	<run>
+  		<include name="Smoke">
+  		</include>
+  		
+  	</run>
+  </groups> -->
+    <classes>
+      <class name="com.mphasis.testngproject.TestNgClass">
+      <!-- <groups>
+      	<run>
+      	<exclude name="Regarasion">
+  		</exclude>
+      	</run>
+      </groups> -->
+      </class>
+      <!-- <class name="com.mphasis.testngproject.testngnewclass"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
